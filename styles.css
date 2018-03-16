@@ -1,0 +1,42 @@
+body {
+	background: linear-gradient(to right, #F6EFD2, #CEAD78);
+}
+/* Huy */
+a {
+	color:green;
+}
+
+.header {
+	background: rgb(255, 255, 255, 0.5);
+	height: 75px;
+	margin-bottom: 10px;
+}
+.choise {
+
+}
+
+.content {
+	background: rgb(255, 255, 255, 0.5);
+	min-height: 450px;
+	width: 68%;
+	float: left;
+	font-family: sans-serif;
+	margin-bottom:10px;
+}
+
+.sidebar {
+ background: rgb(255, 255, 255, 0.5);
+ min-height: 450px;
+ width: 30%;
+ float: left;
+ margin-left: 10px;
+ margin-bottom:10px;
+ font-family: sans-serif;
+}
+
+
+.footer {
+	background: rgb(255, 255, 255, 0.5);
+	min-height: 100px;
+	clear: both;
+}
