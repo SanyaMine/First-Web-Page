@@ -1,2 +1,2 @@
-# First-Web-Page
-This is my first web page :D
+# Rhombus-Counter-Strike
+Hello there
