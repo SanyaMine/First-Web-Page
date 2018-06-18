@@ -20,33 +20,43 @@ hr {
 	margin-bottom: 5px;
 	width: 100%;
 	float: left;
+	min-height: 99px;
 }
 
 #logo {
 	float:left;
+	height: 99px;
+	width: 80px;
 }
 
-#header--menu {
+.header--menu {
+	font-size: 30px;
+	display: block;	
 	text-align: center;
-	font-size: 32px;
-	padding-top: 25px;
-	padding-right: 80px;
+	margin-right: 200px;
+	margin-left: 200px;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.header--menu > li {
+	display: inline-block;
+	position: relative;
 }
 
 a.header--menu--text {
 	color: white;
 	margin-left: 20px;
 	margin-right: 20px;
-}
-.fade {
-  opacity: 1;
-}
- 
-.fade:hover {
-  opacity: 0.6;
+	opacity: 1;
+} 
+
+a.header--menu--text:hover {
+	opacity: 0.6;
+	border:5px;
+	border-color: white;
 }
 
-#content {
+.content {
 	background: rgba(232, 232, 232, 1);
 	min-height: 493px;
 	width: 42.5%;	
@@ -58,7 +68,7 @@ a.header--menu--text {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#sidebar {
+.sidebar {
 	background: rgba(232, 232, 232, 1);
 	min-height: 493px; 
 	width: 11%;
@@ -69,7 +79,7 @@ a.header--menu--text {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#footer {
+.footer {
 	background: rgba(81, 79, 79, 1);
 	min-height: 76px;
 	font-family: sans-serif;
@@ -78,15 +88,8 @@ a.header--menu--text {
 	color: grey;
 }
 
-.news {
-
-}
-
 .youtubeiframe {
 	border-radius: 5px;
 }
 
-.secrettext {
-	display: none;
-}
 /* End of the styles.css file */
