@@ -24,7 +24,7 @@ hr {
 }
 
 #logo {
-	float:left;
+	float: left;
 	height: 99px;
 	width: 80px;
 }
@@ -52,7 +52,7 @@ a.header--menu--text {
 
 a.header--menu--text:hover {
 	opacity: 0.6;
-	border:5px;
+	border: 5px;
 	border-color: white;
 }
 
